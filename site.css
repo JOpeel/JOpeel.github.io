@@ -20,7 +20,7 @@ body {
 
 /* 3. (Optional) Centre the text inside our wrapper */
 .content-wrapper {
-    font-family: 'handwriting', sans-serif;
+    font-family: 'handwriting', serif;
     font-size: 200%;
     text-align: center;
 

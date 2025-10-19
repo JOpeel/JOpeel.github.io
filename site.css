@@ -13,14 +13,14 @@ body {
 
 @font-face {
     font-family: 'handwriting';
-    src: url('https://github.com/JOpeel/JOpeel.github.io/blob/live/Handwriting-Regular%20(3).woff2?raw=true') format('woff2');
+    src: url('/Handwriting-Regular (3).woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 /* 3. (Optional) Centre the text inside our wrapper */
 .content-wrapper {
-    font-family: 'handwriting', sans-serif;
+    font-family: 'handwriting', serif;
     font-size: 200%;
     text-align: center;
 

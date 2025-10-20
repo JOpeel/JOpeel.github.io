@@ -1,15 +1,36 @@
-body {
-    margin: 0;
-    min-height: 100vh; /* 100% of the viewport height */
 
-    /* 2. Set up flexbox */
-    display: flex;
-    justify-content: center; /* Centres horizontally */
-    align-items: center;     /* Centres vertically */
-    background: linear-gradient(
-            139deg,rgba(219, 177, 143, 1) 0%, rgba(191, 149, 115, 1) 35%, rgba(158, 118, 85, 1) 100%
-    );
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'handwriting', serif;
+
 }
+
+header {
+    margin:0;
+    padding:1rem;
+    background-color: #EADCCC;
+
+
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wordmark{
+    cursor: pointer;
+    width:10%;
+}
+
+.wordmarkdiv{
+    padding-left: 1%;
+    text-align: right;
+}
+
+
+
 
 @font-face {
     font-family: 'handwriting';
@@ -18,17 +39,7 @@ body {
     font-style: normal;
 }
 
-/* 3. (Optional) Centre the text inside our wrapper */
-.content-wrapper {
-    font-family: 'handwriting', serif;
-    font-size: 200%;
-    text-align: center;
-
-}
-
-.wordmark{
-    cursor: pointer;
-    width:20%;
-    margin-bottom: 0;
-
+#about{
+    text-decoration-thickness: 0.1rem;
+    color: #000000;
 }

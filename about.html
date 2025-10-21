@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Title</title>
+    <link rel="stylesheet" href="site.css">
 </head>
-<body>
+<div id="header-placeholder"></div>
+<script>
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header-placeholder').innerHTML = data;
 
+            document.getElementById('headerlink').textContent = 'Projects';
+            document.getElementById('headerlink').href = 'index.html';
+        });
+</script>
+<body>
+aboutttttttttttt
 </body>
 </html>

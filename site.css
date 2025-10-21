@@ -10,6 +10,7 @@ body {
 header {
     margin:0;
     padding:1rem;
+    padding-right:3rem;
     background-color: #EADCCC;
 
 
@@ -29,7 +30,43 @@ header {
     text-align: right;
 }
 
+.projectcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.projectdiv{
+    width: 50vw;
+    height: 25vw;
+    background-color: #000000;
+    margin: 5rem;
+    box-shadow: 6px 6px 6px #504e49;
+
+    transition: transform 0.3s ease;
+
+
+}
+
+
+
+
+
+.projectdiv:nth-child(even){
+    transform: rotate(3deg);
+    margin-left: 10rem;
+    background-color: #00b138;
+}
+.projectdiv:nth-child(odd){
+    transform: rotate(-3deg);
+    margin-right: 10rem;
+    background-color: #0032ff;
+}
+
+.projectdiv:hover{
+    transform: scale(1.1);
+}
 
 
 @font-face {
@@ -39,7 +76,7 @@ header {
     font-style: normal;
 }
 
-#about{
+#headerlink{
     text-decoration-thickness: 0.1rem;
     color: #000000;
 }

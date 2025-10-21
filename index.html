@@ -6,21 +6,28 @@
     <title>Title</title>
     <link rel="stylesheet" href="site.css">
 </head>
-<header>
-        <div>
-            <a href="mailto:jacobowainpeel@gmail.com">
-                <img src="\wordmark.svg" class="wordmark" alt="Jacob Peel">
-            </a>
-        </div>
+<div id="header-placeholder"></div>
+<script>
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header-placeholder').innerHTML = data;
 
-        <a href="about.html" id="about">About</a>
-
-
-</header>
+            document.getElementById('headerlink').textContent = 'About';
+            document.getElementById('headerlink').href = 'about.html';
+        });
+</script>
 <body>
-    <p>
-        back to testing
-    </p>
+    <div class="projectcontainer">
+        <div class="projectdiv">
+
+        </div>
+        <div class="projectdiv">
+
+        </div>
+    </div>
+
+
 
 </body>
 </html>

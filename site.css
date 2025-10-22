@@ -1,9 +1,21 @@
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 body {
     margin:0;
     padding:0;
     font-family: 'handwriting', serif;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -13,6 +25,7 @@ header {
     padding-right:3rem;
     background-color: #EADCCC;
 
+    flex-shrink:0;
 
     font-size: 2rem;
     display: flex;
@@ -80,3 +93,43 @@ header {
     text-decoration-thickness: 0.1rem;
     color: #000000;
 }
+
+#abouttextcontainer{
+    flex-grow: 1;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #EADCCC;
+
+
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+
+}
+
+.abouttextdiv{
+    padding: 2rem;
+
+}
+
+#aboutqualifications{
+    flex-grow: 0.3;
+    text-align: left;
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+
+}
+
+#aboutmain{
+    /*line-height: 7rem;*/
+    flex-grow: 0.7;
+    font-size: 2rem;
+
+
+}
+

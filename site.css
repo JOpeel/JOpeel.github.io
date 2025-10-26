@@ -1,6 +1,6 @@
 
 html {
-    overflow: visible; /* or 'clip' if you only want to stop horizontal scroll */
+    /*overflow: visible; !* or 'clip' if you only want to stop horizontal scroll *!*/
     /* Do NOT use 'hidden' or 'scroll' */
 }
 
@@ -21,6 +21,9 @@ body {
 
     display: flex;
     flex-direction: column;
+
+
+    /*justify-content: space-between;*/
 
     /*align-items: flex-start;*/
 
@@ -58,17 +61,30 @@ header {
 
 .projectcontainer{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+
+    /*margin-top: 2rem;*/
 }
 
-.projectdiv{
-    width: 50vw;
-    height: 25vw;
+.projectdiv1{
+    width: 13vw;
+    height: 13vw;
     background-color: #000000;
-    margin: 5rem;
-    box-shadow: 6px 6px 6px #504e49;
+    margin: 2rem;
+    box-shadow: 0px 3px 5px 1px  #504e49;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+}
+
+.projectdiv2{
+    width: 13vw;
+    height: 13vw;
+    background-color: #000000;
+    margin: 2rem;
+    box-shadow: 0px 3px 5px 1px  #504e49;
 
     transition: transform 0.3s ease;
 
@@ -76,23 +92,64 @@ header {
 }
 
 
+#projectcontainercontainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
+    background-color: #FFFFFF;
+}
 
+#nextproject{
+    border: black solid 2px;
+    box-shadow: none;
+    width: 13vw;
+    height: 13vw;
+    background-color: #ffffff;
+    margin: 2rem;
+    transform: skew(-2deg);
+}
 
-.projectdiv:nth-child(even){
+#test{
+    font-size: 1rem;
+}
+
+.projectdiv1:nth-child(2n){
     transform: rotate(3deg);
-    margin-left: 10rem;
-    background-color: #00b138;
+    /*margin-left: 10rem;*/
+    background-color: #FEFF9C;
 }
-.projectdiv:nth-child(odd){
+.projectdiv1:nth-child(2n-1){
     transform: rotate(-3deg);
-    margin-right: 10rem;
-    background-color: #0032ff;
+    /*margin-right: 10rem;*/
+    background-color: #FEFF9C;
+    margin-top: 4rem;
 }
 
-.projectdiv:hover{
-    transform: scale(1.1);
+.projectdiv2:nth-child(2n){
+    transform: rotate(-3deg);
+    /*margin-left: 10rem;*/
+    background-color: #FEFF9C;
 }
+.projectdiv2:nth-child(2n-1){
+    transform: rotate(3deg);
+    /*margin-right: 10rem;*/
+    background-color: #FEFF9C;
+    margin-top: 4rem;
+}
+
+.projectdiv1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 5px 7px 3px #504e49;
+
+}
+
+.projectdiv2:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 5px 7px 3px #504e49;
+}
+
 
 
 @font-face {

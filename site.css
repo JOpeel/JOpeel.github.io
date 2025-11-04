@@ -1,7 +1,6 @@
 
 html {
-    /*overflow: visible; !* or 'clip' if you only want to stop horizontal scroll *!*/
-    /* Do NOT use 'hidden' or 'scroll' */
+    overflow-x: clip;
 }
 
 @keyframes fadeIn {
@@ -22,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
 
-
+    /*overflow: visible;*/
     /*justify-content: space-between;*/
 
     /*align-items: flex-start;*/
@@ -54,10 +53,23 @@ header {
     gap: 2rem;
 }
 
-.wordmark{
-    cursor: pointer;
-    width:10%;
+#topline{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+    padding:1rem;
+    padding-right:3rem;
+
 }
+
+.wordmark{
+
+    width:30%;
+}
+
 
 .wordmarkdiv{
     padding-left: 1%;
@@ -76,15 +88,31 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    flex-grow: 1;
+    /*flex-grow: 1;*/
+
+    align-items: flex-start;
+
 
 }
 
 #left{
+    display:flex;
+    position: sticky;
+    align-items: center;
 
-    background-color: #ffffff;
+    background-color: #EADCCC;
+
+    top:0;
+
     width: 80%;
-    box-shadow: 2px -2px 2px #9a9791, 2px 2px 2px #9a9791;
+    /*box-shadow: 2px -2px 2px #9a9791, 2px 2px 2px #9a9791;*/
+
+    height: 100vh;
+
+    z-index: 100;
+
+    flex-direction: column;
+
 
 
 }

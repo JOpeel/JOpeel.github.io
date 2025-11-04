@@ -170,18 +170,26 @@ header {
     animation-fill-mode: forwards;
 }
 
-.projectdiv1{
+.projectbox{
+
     display:flex;
     flex-direction: column;
     width: 16vw;
     height: 16vw;
     background-color: #000000;
-    margin: 2rem;
+
     box-shadow: 0px 3px 5px 1px  #504e49;
 
+
+}
+
+.project{
+    display:flex;
+    flex-direction: column;
+    width: 16vw;
+    height: 18vw;
+    margin: 2rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-
 }
 
 .projectdiv2{
@@ -208,7 +216,7 @@ header {
 
 }
 
-#stick{
+.stick{
     flex-grow: 0.001;
     background-color: #e7e889;
 }
@@ -241,39 +249,40 @@ header {
     font-size: 1rem;
 }
 
-.projectdiv1:nth-child(2n){
+.projectbox:nth-child(2n){
     transform: rotate(3deg);
     /*margin-left: 10rem;*/
     background-color: #FEFF9C;
 }
-.projectdiv1:nth-child(2n-1){
+.projectbox:nth-child(2n-1){
     transform: rotate(-3deg);
     /*margin-right: 10rem;*/
     background-color: #FEFF9C;
     margin-top: 4rem;
 }
 
-.projectdiv2:nth-child(2n){
-    transform: rotate(-3deg);
-    /*margin-left: 10rem;*/
-    background-color: #FEFF9C;
-}
-.projectdiv2:nth-child(2n-1){
-    transform: rotate(3deg);
-    /*margin-right: 10rem;*/
-    background-color: #FEFF9C;
-    margin-top: 4rem;
-}
+/*.projectdiv2:nth-child(2n){*/
+/*    transform: rotate(-3deg);*/
+/*    !*margin-left: 10rem;*!*/
+/*    background-color: #FEFF9C;*/
+/*}*/
+/*.projectdiv2:nth-child(2n-1){*/
+/*    transform: rotate(3deg);*/
+/*    !*margin-right: 10rem;*!*/
+/*    background-color: #FEFF9C;*/
+/*    margin-top: 4rem;*/
+/*}*/
 
-.projectdiv1:hover{
+.project:hover{
     transform: scale(1.1);
-    box-shadow: 0px 5px 7px 3px #504e49;
+
 
 }
 
 .projectdiv2:hover{
     transform: scale(1.1);
     box-shadow: 0px 5px 7px 3px #504e49;
+
 }
 
 

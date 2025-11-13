@@ -20,12 +20,6 @@ body {
 
     display: flex;
     flex-direction: column;
-
-    /*overflow: visible;*/
-    /*justify-content: space-between;*/
-
-    /*align-items: flex-start;*/
-
 }
 
 #header-placeholder {
@@ -66,7 +60,6 @@ header {
 }
 
 .wordmark{
-
     width:30%;
 }
 
@@ -81,18 +74,14 @@ header {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    /*margin-top: 2rem;*/
 }
 
 #main{
     display: flex;
     flex-direction: row;
     justify-content: start;
-    /*flex-grow: 1;*/
 
     align-items: flex-start;
-
-
 }
 
 #left{
@@ -105,7 +94,6 @@ header {
     top:0;
 
     width: 80%;
-    /*box-shadow: 2px -2px 2px #9a9791, 2px 2px 2px #9a9791;*/
 
     height: 100vh;
 
@@ -189,6 +177,7 @@ header {
     width: 16vw;
     height: 18vw;
     margin: 2rem;
+    transform: rotate(var(--start-rotation));
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -200,8 +189,6 @@ header {
     box-shadow: 0px 3px 5px 1px  #504e49;
 
     transition: transform 0.3s ease;
-
-
 }
 
 .title{
@@ -226,15 +213,6 @@ header {
     font-size: 1.2rem;
 }
 
-/*#projectcontainercontainer{*/
-/*    flex: 1;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: space-around;*/
-
-/*    background-color: #FFFFFF;*/
-/*}*/
-
 #nextproject{
     border: black solid 2px;
     box-shadow: none;
@@ -250,31 +228,19 @@ header {
 }
 
 .projectbox:nth-child(2n){
-    transform: rotate(3deg);
+    /*transform: rotate(3deg);*/
     /*margin-left: 10rem;*/
     background-color: #FEFF9C;
 }
 .projectbox:nth-child(2n-1){
-    transform: rotate(-3deg);
+    /*transform: rotate(-3deg);*/
     /*margin-right: 10rem;*/
     background-color: #FEFF9C;
     margin-top: 4rem;
 }
 
-/*.projectdiv2:nth-child(2n){*/
-/*    transform: rotate(-3deg);*/
-/*    !*margin-left: 10rem;*!*/
-/*    background-color: #FEFF9C;*/
-/*}*/
-/*.projectdiv2:nth-child(2n-1){*/
-/*    transform: rotate(3deg);*/
-/*    !*margin-right: 10rem;*!*/
-/*    background-color: #FEFF9C;*/
-/*    margin-top: 4rem;*/
-/*}*/
-
 .project:hover{
-    transform: scale(1.1);
+    transform: scale(1.1) rotate(0deg);
 
 
 }
@@ -326,16 +292,6 @@ header {
     padding: 2rem;
 
 }
-
-
-
-/*#aboutqualifications{*/
-/*    flex-grow: 0.3;*/
-/*    text-align: left;*/
-/*    padding-left: 1.5rem;*/
-/*    font-size: 1.5rem;*/
-
-/*}*/
 
 #aboutmain{
     /*line-height: 7rem;*/

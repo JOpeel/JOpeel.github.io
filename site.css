@@ -177,7 +177,7 @@ header {
     width: 16vw;
     height: 18vw;
     margin: 2rem;
-    transform: rotate(var(--start-rotation));
+    transform: rotate(var(--random-rotation));
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 

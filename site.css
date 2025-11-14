@@ -3,6 +3,10 @@ html {
     overflow-x: clip;
 }
 
+a:visited {
+    color: black;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -158,17 +162,42 @@ header {
     animation-fill-mode: forwards;
 }
 
+
+
 .projectbox{
 
     display:flex;
     flex-direction: column;
     width: 16vw;
     height: 16vw;
-    background-color: #000000;
+
 
     box-shadow: 0px 3px 5px 1px  #504e49;
+}
 
 
+
+.descriptioncontainer{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+
+
+}
+
+.projectdate{
+    margin-bottom:0.2rem;
+    padding:0;
+    font-size:1.5rem;
+}
+
+#links{
+
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    display:flex;
+    flex-direction: row;
+    gap: 2rem;
 }
 
 .project{
@@ -193,24 +222,27 @@ header {
 
 .title{
     /*position: absolute;*/
+    font-family: "Arial Black";
     padding: 0.05rem;
     margin: 0.5rem;
     color: white;
     text-align: center;
-    font-size: 2.2rem;
-    background-color: #003c19;
+    font-size: 1.2rem;
+    /*background-color: #095719;*/
     border-radius: 0.5rem;
 
 }
 
 .stick{
     flex-grow: 0.001;
-    background-color: #e7e889;
+    background-color: #70b18a;
 }
 
 .projectdescription{
     text-align: center;
     font-size: 1.2rem;
+    margin: 0.5rem;
+
 }
 
 #nextproject{
@@ -225,18 +257,6 @@ header {
 
 #test{
     font-size: 1rem;
-}
-
-.projectbox:nth-child(2n){
-    /*transform: rotate(3deg);*/
-    /*margin-left: 10rem;*/
-    background-color: #FEFF9C;
-}
-.projectbox:nth-child(2n-1){
-    /*transform: rotate(-3deg);*/
-    /*margin-right: 10rem;*/
-    background-color: #FEFF9C;
-    margin-top: 4rem;
 }
 
 .project:hover{

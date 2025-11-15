@@ -16,6 +16,13 @@ a:visited {
     }
 }
 
+/*.playfair-display-titlefont {*/
+/*                       font-family: "Playfair Display", serif;*/
+/*                       font-optical-sizing: auto;*/
+/*                       font-weight: 800;*/
+/*                       font-style: normal;*/
+/*                   }*/
+
 body {
     margin:0;
     padding:0;
@@ -124,6 +131,7 @@ header {
     font-size: 1.5rem;
 
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     justify-content: space-between;
 
@@ -222,20 +230,31 @@ header {
 
 .title{
     /*position: absolute;*/
-    font-family: "Arial Black";
+    font-family: "Playfair Display", serif;
+    line-height: 1;
+    font-size: 22px;
+
+    font-weight: 800;
     padding: 0.05rem;
     margin: 0.5rem;
     color: white;
     text-align: center;
-    font-size: 1.2rem;
+
+
+
+
     /*background-color: #095719;*/
-    border-radius: 0.5rem;
+    /*border-radius: 0.5rem;*/
 
 }
 
 .stick{
-    flex-grow: 0.001;
+    flex-grow: 0.1;
     background-color: #70b18a;
+    align-content: center;
+    max-height: 2.5rem;
+
+
 }
 
 .projectdescription{

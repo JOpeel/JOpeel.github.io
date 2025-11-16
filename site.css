@@ -190,6 +190,8 @@ header {
     align-items: center;
     flex-grow: 1;
 
+    padding-top: 0.1rem;
+
 
 }
 
@@ -253,6 +255,8 @@ header {
     background-color: #70b18a;
     align-content: center;
     max-height: 2.5rem;
+    padding: 0;
+    margin: 0;
 
 
 }
@@ -260,7 +264,11 @@ header {
 .projectdescription{
     text-align: center;
     font-size: 1.2rem;
+    margin-top: 0;
     margin: 0.5rem;
+
+
+
 
 }
 

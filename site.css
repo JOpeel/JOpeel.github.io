@@ -3,7 +3,7 @@ html {
     overflow-x: clip;
 }
 
-a:visited {
+a{
     color: black;
 }
 
@@ -31,31 +31,6 @@ body {
 
     display: flex;
     flex-direction: column;
-}
-
-#header-placeholder {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    width: 100%;
-    background-color: #EADCCC;
-}
-
-header {
-    margin:0;
-    padding:1rem;
-    padding-right:3rem;
-    background-color: #EADCCC;
-
-    font-size: 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#header-links{
-    display:flex;
-    gap: 2rem;
 }
 
 #topline{
@@ -178,9 +153,9 @@ header {
     flex-direction: column;
     width: 16vw;
     height: 16vw;
+    background-color: #ffffff;
 
-
-    box-shadow: 0px 3px 5px 1px  #504e49;
+    box-shadow: 0px 3px 5px 1px  #ffffff;
 }
 
 
@@ -220,15 +195,15 @@ header {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.projectdiv2{
-    width: 13vw;
-    height: 13vw;
-    background-color: #000000;
-    margin: 2rem;
-    box-shadow: 0px 3px 5px 1px  #504e49;
+/*.projectdiv2{*/
+/*    width: 13vw;*/
+/*    height: 13vw;*/
+/*    background-color: #000000;*/
+/*    margin: 2rem;*/
+/*    box-shadow: 0px 3px 5px 1px  #504e49;*/
 
-    transition: transform 0.3s ease;
-}
+/*    transition: transform 0.3s ease;*/
+/*}*/
 
 .title{
     /*position: absolute;*/
@@ -239,20 +214,14 @@ header {
     font-weight: 800;
     padding: 0.05rem;
     margin: 0.5rem;
-    color: white;
+    color: black;
     text-align: center;
-
-
-
-
-    /*background-color: #095719;*/
-    /*border-radius: 0.5rem;*/
 
 }
 
 .stick{
     flex-grow: 0.1;
-    background-color: #70b18a;
+    background-color: #ececec;
     align-content: center;
     max-height: 2.5rem;
     padding: 0;
@@ -266,9 +235,6 @@ header {
     font-size: 1.2rem;
     margin-top: 0;
     margin: 0.5rem;
-
-
-
 
 }
 
@@ -288,8 +254,6 @@ header {
 
 .project:hover{
     transform: scale(1.1) rotate(0deg);
-
-
 }
 
 .projectdiv2:hover{
@@ -297,8 +261,6 @@ header {
     box-shadow: 0px 5px 7px 3px #504e49;
 
 }
-
-
 
 @font-face {
     font-family: 'handwriting';
@@ -341,7 +303,6 @@ header {
 }
 
 #aboutmain{
-    /*line-height: 7rem;*/
     flex-grow: 0.7;
     font-size: 2rem;
 

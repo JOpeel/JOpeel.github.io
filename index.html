@@ -14,45 +14,9 @@
 <body>
 
 <div id="main" style="background-image: url(backgrounds/dot-grid.webp)">
-    <div id="left">  <!--            TODO dotted line -->
-        <div id="topline">
-            <img src="\wordmark.svg" class="wordmark" alt="Jacob Peel">
-            <div id="links">
-                <a href="/CV%20Jacob%20Peel.docx"><p> CV </p></a>
-                <a href="https://www.linkedin.com/in/jacob-peel-6408382ba"><p> LinkedIn </p></a>
-            </div>
-        </div>
+    <script src="Left.js"></script>
+    <my-left></my-left>
 
-        <div id="qualifications">
-            <div class="qualificationsline">
-                Human-Computer Interaction MSc (2025)
-            </div>
-            <div class="qualificationsline">
-                Computer Science BSc (2024)
-            </div>
-        </div>
-
-        <div id="bio">
-            <p class="bioline">
-                UK-based Designer and engineer.
-            </p>
-            <p class="bioline">
-                Human-centred tools - ideation, research, prototyping, development.
-            </p>
-            <p class="bioline">
-                Visual identity and content design.
-            </p>
-            <p class="bioline">
-                This website showcases many of my projects as a portfolio, detailing the processes undertaken, problems solved, and skills utilised!
-            </p>
-            <p class="bioline">
-                When I’m not at my desk you can often find me up a mountain in disappointing conditions.
-                <br>
-                When I AM at my desk, you can find me at jacobowainpeel@gmail.com.
-            </p>
-        </div>
-
-    </div>
 
     <div  class="projectsandsiteabout">
         <div class="projectcontainer">
@@ -87,7 +51,7 @@
                     <div class="stick">
                         <p class="title" style="color:black"> Design of Tangible Event Discovery System</p>
                     </div>
-                    <img src="Images/lumicity.jpg" style="height: 10rem;" alt="showcase">
+                    <img src="Images/lumicity.jpg" style="width: 10rem;" alt="showcase">
 
                     <div class="descriptioncontainer">
                         <p class="projectdescription">
@@ -286,9 +250,11 @@
             </a>
 
         </div>
+
         <div class="siteabout">
             <p>This website was designed in Figma and built using plain old HTML, CSS, and Javascript! (Updated 2025) </p>
         </div>
+
     </div>
 
         <script src="randomiseprojects.js"></script>

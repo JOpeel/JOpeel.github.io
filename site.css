@@ -8,6 +8,12 @@ a{
     text-decoration: none;
 }
 
+/*img {*/
+/*    max-width: 100%;*/
+/*    height: auto;*/
+/*    display: block;*/
+/*}*/
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -32,6 +38,39 @@ body {
 
     display: flex;
     flex-direction: column;
+}
+
+.project-contents{
+    font: 30px 'handwriting', cursive;
+    text-align: center;
+
+    max-width: 80ch;
+
+    margin: auto;
+
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+
+}
+
+.topimage{
+
+
+    /* 100% of the screen height MINUS the header height */
+    height: calc(100vh - 200px);
+    width: auto;
+    max-width: 100%;
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.caption{
+    text-align: center;
+    font-size: 18px;
 }
 
 #topline{
@@ -61,6 +100,56 @@ body {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 215%;
+    align-items: center;
+}
+
+.detailstitle{
+    font-family: "Playfair Display", serif;
+
+    font-size: 3rem;
+
+    font-weight: 600;
+
+    color: black;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+
+    
+}
+
+.detailsbio{
+    font-family: "Playfair Display", serif;
+
+    font-size: 1.5rem;
+
+    font-weight: 400;
+
+    color: black;
+    text-align: center;
+
+    max-width: 60ch;
+
+
+    margin: auto;
+
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+
+
+
+
+
 }
 
 #main{
@@ -177,6 +266,10 @@ body {
     font-size:1.5rem;
 }
 
+my-left{
+    display: contents;
+}
+
 #links{
 
     padding-top: 1rem;
@@ -193,6 +286,7 @@ body {
     width: 16vw;
     height: 18vw;
     margin: 2rem;
+    /*noinspection CssUnresolvedCustomProperty*/
     transform: rotate(var(--random-rotation));
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 

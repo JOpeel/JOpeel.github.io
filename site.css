@@ -62,6 +62,25 @@ body {
 
 }
 
+.gridimage{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.imagegrid{
+
+    margin:0;
+    display: grid;
+    place-items: center;
+    min-width: 0;
+    width: 60%;
+
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+}
+
 .topimage{
 
 
@@ -167,7 +186,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 215%;
+    width: 100%;
     align-items: center;
 }
 

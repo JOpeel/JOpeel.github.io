@@ -283,6 +283,12 @@ body {
     animation-fill-mode: forwards;
 }
 
+#qualificationsstatic{
+    rotate: -1deg;
+    padding-left: 1rem;
+    text-align: left;
+}
+
 #bio{
     margin: 1rem;
 
@@ -326,6 +332,34 @@ body {
     opacity: 0;
     animation: fadeIn 2s;
     animation-fill-mode: forwards;
+}
+
+.biolinestatic{
+
+}
+
+.biolinestatic:nth-child(1){
+
+}
+
+.biolinestatic:nth-child(2){
+
+    rotate: 1deg;
+}
+
+.biolinestatic:nth-child(3){
+
+    rotate: -2deg;
+}
+
+.biolinestatic:nth-child(4){
+
+    rotate: 1deg;
+}
+
+.biolinestatic:nth-child(5){
+
+    rotate: -1deg;
 }
 
 

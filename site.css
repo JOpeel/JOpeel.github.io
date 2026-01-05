@@ -1,4 +1,8 @@
 
+@view-transition {
+    navigation: auto;
+}
+
 html {
     overflow-x: clip;
 }
@@ -255,7 +259,16 @@ body {
     align-items: flex-start;
 }
 
+my-left{
+    display: block;
+    width: 30%;
+    height: 100vh;
+    background-color: #EADCCC;
+    float: left;
+}
+
 #left{
+    view-transition-name: main-sidebar;
     display:flex;
     position: sticky;
     /*align-items: left;*/

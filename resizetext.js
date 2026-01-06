@@ -4,13 +4,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const descriptions = document.querySelectorAll(".projectdescription");
     const lineHeight = 1;
 
-    titles.forEach(title => {
-        scaleTextToFit(2, title, lineHeight);
-    });
+    document.fonts.ready.then(() =>{
+        titles.forEach(title => {
+            scaleTextToFit(2, title, lineHeight);
+        });
 
-    descriptions.forEach(description => {
-        scaleTextToFit(3, description, lineHeight);
-    });
+        descriptions.forEach(description => {
+            scaleTextToFit(3, description, lineHeight);
+        });
+    })
+
 
 });
 

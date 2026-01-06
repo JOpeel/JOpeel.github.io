@@ -28,7 +28,7 @@ class LeftComponent extends HTMLElement {
     
             <div id="bio">
                 <p class="bioline">
-                    UK-based Designer and engineer.
+                    (UK-based Designer and engineer.)
                 </p>
                 <p class="bioline">
                     Human-centred tools - ideation, research, prototyping, development.
@@ -42,7 +42,7 @@ class LeftComponent extends HTMLElement {
                 <p class="bioline">
                     When I’m not at my desk you can often find me up a mountain in disappointing conditions.
                     <br>
-                    When I AM at my desk, you can find me at jacobowainpeel@gmail.com.
+                    When I AM at my desk, you can find me <a style="text-decoration: underline;" href="https://formsubmit.co/el/zumiwo" target="_blank">here</a>
                 </p>
             </div>
     
@@ -74,7 +74,7 @@ class LeftComponent extends HTMLElement {
     
             <div id="bio">
                 <p class="biolinestatic">
-                    UK-based Designer and engineer.
+                    (UK-based Designer and engineer.)
                 </p>
                 <p class="biolinestatic">
                     Human-centred tools - ideation, research, prototyping, development.
@@ -88,7 +88,7 @@ class LeftComponent extends HTMLElement {
                 <p class="biolinestatic">
                     When I’m not at my desk you can often find me up a mountain in disappointing conditions.
                     <br>
-                    When I AM at my desk, you can find me at jacobowainpeel@gmail.com.
+                    When I AM at my desk, you can find me <a style="text-decoration: underline;" href="https://formsubmit.co/el/zumiwo" target="_blank">here</a>
                 </p>
             </div>
     

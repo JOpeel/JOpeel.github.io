@@ -3,14 +3,33 @@
     navigation: auto;
 }
 
+@font-face {
+    font-family: 'handwriting';
+    src: url('/Handwriting3-Regular-v2.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 html {
     overflow-x: clip;
 }
 
-a{
+strong{
+    font-weight: normal; /* Turn off the browser bold */
+    text-shadow: 0 0 1px currentColor;
+}
+
+a {
+
     color: black;
     text-decoration: none;
+
+    display: inline;
+
 }
+
+/*.image-anchor{*/
+/*    width: 60%;*/
+/*}*/
 
 /*img {*/
 /*    max-width: 100%;*/
@@ -94,12 +113,12 @@ body {
 
 }
 
-.topimage{
+.image{
 
 
 
 
-    width: 60%;
+    width: 100%;
     height: auto;
 
     display: block;
@@ -160,7 +179,7 @@ body {
 .caption{
     text-align: center;
     font-size: 18px;
-    max-width: 60%;
+    max-width: 50%;
     margin: auto;
     margin-bottom: 1rem;
 }
@@ -199,7 +218,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 100%;
+    /*width: 100%;*/
     align-items: center;
 }
 
@@ -239,16 +258,16 @@ body {
 
     margin-top: 0.5rem;
     margin-bottom: 3rem;
-
-
-
-
-
 }
 
 .topimagediv{
     display: block;
-    width: 100%;
+    max-width: 60%;
+}
+
+.imagediv{
+    display: block;
+    max-width: 50%;
 }
 
 #main{
@@ -506,12 +525,7 @@ my-left{
 
 }
 
-@font-face {
-    font-family: 'handwriting';
-    src: url('/Handwriting3-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 #headerlink{
     text-decoration-thickness: 0.1rem;

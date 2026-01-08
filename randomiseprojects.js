@@ -9,8 +9,6 @@ function convertRemToPixels(rem) {
     return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
 }
 
-const rotationsArray = [];
-const marginsArray = [];
 let i = 0;
 
 if(sessionStorage.getItem('randomised') === 'true'){

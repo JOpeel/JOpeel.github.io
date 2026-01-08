@@ -7,7 +7,7 @@ class LeftComponent extends HTMLElement {
         if(!hasLoadedBefore){
             this.innerHTML = `            
           <div id="left">  <!--            TODO dotted line -->
-            <div id="topline">
+            <div id="top-line">
 <!--                <a href="/index.html">-->
                 <img src="/wordmark.svg" class="wordmark" alt="Jacob Peel">
 <!--                </a>-->
@@ -18,28 +18,28 @@ class LeftComponent extends HTMLElement {
             </div>
     
             <div id="qualifications">
-                <div class="qualificationsline">
+                <div class="qualifications-line">
                     Human-Computer Interaction MSc (2025)
                 </div>
-                <div class="qualificationsline">
+                <div class="qualifications-line">
                     Computer Science BSc (2024)
                 </div>
             </div>
     
             <div id="bio">
-                <p class="bioline">
+                <p class="bio-line">
                     (UK-based Designer and engineer.)
                 </p>
-                <p class="bioline">
+                <p class="bio-line">
                     Human-centred tools - ideation, research, prototyping, development.
                 </p>
-                <p class="bioline">
+                <p class="bio-line">
                     Visual identity and content design.
                 </p>
-                <p class="bioline">
+                <p class="bio-line">
                     This website showcases many of my projects as a portfolio, detailing the processes undertaken, problems solved, and skills utilised!
                 </p>
-                <p class="bioline">
+                <p class="bio-line">
                     When I’m not at my desk you can often find me up a mountain in disappointing conditions.
                     <br>
                     When I AM at my desk, you can find me <a style="text-decoration: underline;" href="https://formsubmit.co/el/zumiwo" target="_blank">here</a>
@@ -53,7 +53,7 @@ class LeftComponent extends HTMLElement {
         } else {
             this.innerHTML = `            
           <div id="left">  <!--            TODO dotted line -->
-            <div id="topline">
+            <div id="top-line">
 <!--                <a href="/index.html">-->
                 <img src="/wordmark.svg" class="wordmark" alt="Jacob Peel">
 <!--                </a>-->
@@ -63,29 +63,29 @@ class LeftComponent extends HTMLElement {
                 </div>
             </div>
     
-            <div id="qualificationsstatic">
-                <div class="qualificationsline">
+            <div id="qualifications-static">
+                <div class="qualifications-line">
                     Human-Computer Interaction MSc (2025)
                 </div>
-                <div class="qualificationsline">
+                <div class="qualifications-line">
                     Computer Science BSc (2024)
                 </div>
             </div>
     
             <div id="bio">
-                <p class="biolinestatic">
+                <p class="bio-line-static">
                     (UK-based Designer and engineer.)
                 </p>
-                <p class="biolinestatic">
+                <p class="bio-line-static">
                     Human-centred tools - ideation, research, prototyping, development.
                 </p>
-                <p class="biolinestatic">
+                <p class="bio-line-static">
                     Visual identity and content design.
                 </p>
-                <p class="biolinestatic">
+                <p class="bio-line-static">
                     This website showcases many of my projects as a portfolio, detailing the processes undertaken, problems solved, and skills utilised!
                 </p>
-                <p class="biolinestatic">
+                <p class="bio-line-static">
                     When I’m not at my desk you can often find me up a mountain in disappointing conditions.
                     <br>
                     When I AM at my desk, you can find me <a style="text-decoration: underline;" href="https://formsubmit.co/el/zumiwo" target="_blank">here</a>

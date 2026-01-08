@@ -46,13 +46,6 @@ a {
     }
 }
 
-/*.playfair-display-titlefont {*/
-/*                       font-family: "Playfair Display", serif;*/
-/*                       font-optical-sizing: auto;*/
-/*                       font-weight: 800;*/
-/*                       font-style: normal;*/
-/*                   }*/
-
 body {
     margin:0;
     padding:0;
@@ -78,20 +71,16 @@ body {
 }
 
 .doc-link {
-    /*display: block;*/
-    /*width: 100%;*/
-
     display: contents;
-
 }
 
-.gridimage{
+.grid-image{
     max-width: 100%;
     height: auto;
     display: block;
 }
 
-.imagegrid{
+.image-grid{
 
     margin:0;
     display: grid;
@@ -104,7 +93,7 @@ body {
 
 }
 
-.projectimage{
+.project-image{
     min-width: 100%;
     max-width: 100%;
     max-height: 60%;
@@ -160,7 +149,7 @@ body {
     color: grey;
     border: none;
 
-    box-shadow: 0px 3px 5px 1px #737373;
+    box-shadow: 0 3px 5px 1px #737373;
 
     position: fixed;
 
@@ -184,7 +173,7 @@ body {
     margin-bottom: 1rem;
 }
 
-#topline{
+#top-line{
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -201,12 +190,12 @@ body {
 }
 
 
-.wordmarkdiv{
+.wordmark-div{
     padding-left: 1%;
     text-align: right;
 }
 
-.projectcontainer{
+.project-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -222,7 +211,7 @@ body {
     align-items: center;
 }
 
-.detailstitle{
+.details-title{
     font-family: "Playfair Display", serif;
 
     font-size: 3rem;
@@ -241,7 +230,7 @@ body {
     
 }
 
-.detailsbio{
+.details-bio{
     font-family: "Playfair Display", serif;
 
     font-size: 1.5rem;
@@ -260,12 +249,12 @@ body {
     margin-bottom: 3rem;
 }
 
-.topimagediv{
+.top-image-div{
     display: block;
     max-width: 60%;
 }
 
-.imagediv{
+.image-div{
     display: block;
     max-width: 50%;
 }
@@ -315,7 +304,7 @@ my-left{
     animation-fill-mode: forwards;
 }
 
-#qualificationsstatic{
+#qualifications-static{
     rotate: -1deg;
     padding-left: 1rem;
     text-align: left;
@@ -334,69 +323,69 @@ my-left{
 }
 
 
-.bioline:nth-child(1){
+.bio-line:nth-child(1){
     animation-delay: 0.7s;
 
 }
 
-.bioline:nth-child(2){
+.bio-line:nth-child(2){
     animation-delay: 1.4s;
     rotate: 1deg;
 }
 
-.bioline:nth-child(3){
+.bio-line:nth-child(3){
     animation-delay: 2.1s;
     rotate: -2deg;
 }
 
-.bioline:nth-child(4){
+.bio-line:nth-child(4){
     animation-delay: 2.9s;
     rotate: 1deg;
 }
 
-.bioline:nth-child(5){
+.bio-line:nth-child(5){
     animation-delay:3.6s;
     rotate: -1deg;
 }
 
 
-.bioline{
+.bio-line{
     opacity: 0;
     animation: fadeIn 2s;
     animation-fill-mode: forwards;
 }
 
-.biolinestatic{
+.bio-line-static{
 
 }
 
-.biolinestatic:nth-child(1){
+.bio-line-static:nth-child(1){
 
 }
 
-.biolinestatic:nth-child(2){
+.bio-line-static:nth-child(2){
 
     rotate: 1deg;
 }
 
-.biolinestatic:nth-child(3){
+.bio-line-static:nth-child(3){
 
     rotate: -2deg;
 }
 
-.biolinestatic:nth-child(4){
+.bio-line-static:nth-child(4){
 
     rotate: 1deg;
 }
 
-.biolinestatic:nth-child(5){
+.bio-line-static:nth-child(5){
 
     rotate: -1deg;
 }
 
 
 
-.projectbox{
+.project-box{
 
     display:flex;
     flex-direction: column;
@@ -404,12 +393,12 @@ my-left{
     height: 16vw;
     background-color: #ffffff;
 
-    box-shadow: 0px 3px 5px 1px #737373;
+    box-shadow: 0 3px 5px 1px #737373;
 }
 
 
 
-.descriptioncontainer{
+.description-container{
     display: flex;
     align-items: center;
     flex-grow: 1;
@@ -419,7 +408,7 @@ my-left{
 
 }
 
-.projectdate{
+.project-date{
     margin-bottom:0.2rem;
     padding:0;
     font-size:1.5rem;
@@ -451,16 +440,6 @@ my-left{
 
 }
 
-/*.projectdiv2{*/
-/*    width: 13vw;*/
-/*    height: 13vw;*/
-/*    background-color: #000000;*/
-/*    margin: 2rem;*/
-/*    box-shadow: 0px 3px 5px 1px  #504e49;*/
-
-/*    transition: transform 0.3s ease;*/
-/*}*/
-
 .title{
     /*position: absolute;*/
     font-family: "Playfair Display", serif;
@@ -475,7 +454,7 @@ my-left{
 
 }
 
-.siteabout{
+.site-about{
 
     /*align-self: flex-end;*/
     text-align: center;
@@ -493,15 +472,16 @@ my-left{
 
 }
 
-.projectdescription{
+.project-description{
     text-align: center;
     font-size: 1.2rem;
-    margin-top: 0;
     margin: 0.5rem;
+
+
 
 }
 
-#nextproject{
+#next-project{
     border: black solid 2px;
     box-shadow: none;
     width: 13vw;
@@ -519,25 +499,25 @@ my-left{
     transform: scale(1.1) rotate(0deg);
 }
 
-.projectdiv2:hover{
+.project-div-2:hover{
     transform: scale(1.1);
-    box-shadow: 0px 5px 7px 3px #504e49;
+    box-shadow: 0 5px 7px 3px #504e49;
 
 }
 
 
 
-#headerlink{
+#header-link{
     text-decoration-thickness: 0.1rem;
     color: #000000;
 }
 
-#headerlink2{
+#header-link-2{
     text-decoration-thickness: 0.1rem;
     color: #000000;
 }
 
-#abouttextcontainer{
+#about-text-container{
     flex-grow: 1;
 
     text-align: center;
@@ -555,12 +535,12 @@ my-left{
 
 }
 
-.abouttextdiv{
+.about-text-div{
     padding: 2rem;
 
 }
 
-#aboutmain{
+#about-main{
     flex-grow: 0.7;
     font-size: 2rem;
 

@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Get all the elements you want to apply this to
     const titles = document.querySelectorAll(".title");
-    const descriptions = document.querySelectorAll(".projectdescription");
+    const descriptions = document.querySelectorAll(".project-description");
     const lineHeight = 1;
 
     document.fonts.ready.then(() =>{

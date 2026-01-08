@@ -396,7 +396,12 @@ my-left{
     box-shadow: 0 3px 5px 1px #737373;
 }
 
+.project-anchor{
+    height: 18vw;
+    width: 16vw;
 
+    padding: 0;
+}
 
 .description-container{
     display: flex;
@@ -433,7 +438,7 @@ my-left{
     flex-direction: column;
     width: 16vw;
     height: 18vw;
-    margin: 2rem;
+
     /*noinspection CssUnresolvedCustomProperty*/
     transform: rotate(var(--random-rotation));
     transition: transform 0.3s ease, box-shadow 0.3s ease;

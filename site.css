@@ -9,6 +9,16 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 html {
     overflow-x: clip;
 }
@@ -19,31 +29,10 @@ strong{
 }
 
 a {
-
     color: black;
     text-decoration: none;
 
     display: inline;
-
-}
-
-/*.image-anchor{*/
-/*    width: 60%;*/
-/*}*/
-
-/*img {*/
-/*    max-width: 100%;*/
-/*    height: auto;*/
-/*    display: block;*/
-/*}*/
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }
 
 body {
@@ -66,8 +55,6 @@ body {
 
     margin-bottom: 1rem;
     margin-top: 1rem;
-
-
 }
 
 .doc-link {
@@ -81,7 +68,6 @@ body {
 }
 
 .image-grid{
-
     margin:0;
     display: grid;
     place-items: center;
@@ -90,7 +76,6 @@ body {
 
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-
 }
 
 .project-image{
@@ -98,15 +83,9 @@ body {
     max-width: 100%;
     max-height: 60%;
     display: block;
-
-
 }
 
 .image{
-
-
-
-
     width: 100%;
     height: auto;
 
@@ -115,9 +94,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
-
-
-
 }
 
 .contents-video{
@@ -157,8 +133,6 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
     cursor: grab;
-
-
 }
 
 .back:hover{
@@ -179,10 +153,8 @@ body {
     align-items: center;
     justify-content: space-between;
 
-
     padding:1rem;
     padding-right:3rem;
-
 }
 
 .wordmark{
@@ -207,7 +179,6 @@ body {
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
-    /*width: 100%;*/
     align-items: center;
 }
 
@@ -225,9 +196,6 @@ body {
     text-align: center;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-
-
-    
 }
 
 .details-bio{
@@ -241,7 +209,6 @@ body {
     text-align: center;
 
     max-width: 60%;
-
 
     margin: auto;
 
@@ -263,7 +230,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: start;
-
     align-items: flex-start;
 }
 
@@ -279,7 +245,6 @@ my-left{
     view-transition-name: main-sidebar;
     display:flex;
     position: sticky;
-    /*align-items: left;*/
 
     background-color: #EADCCC;
 
@@ -325,7 +290,6 @@ my-left{
 
 .bio-line:nth-child(1){
     animation-delay: 0.7s;
-
 }
 
 .bio-line:nth-child(2){
@@ -355,51 +319,42 @@ my-left{
     animation-fill-mode: forwards;
 }
 
-.bio-line-static{
+/*.bio-line-static{*/
 
-}
+/*}*/
 
-.bio-line-static:nth-child(1){
+/*.bio-line-static:nth-child(1){*/
 
-}
+/*}*/
 
 .bio-line-static:nth-child(2){
-
     rotate: 1deg;
 }
 
 .bio-line-static:nth-child(3){
-
     rotate: -2deg;
 }
 
 .bio-line-static:nth-child(4){
-
     rotate: 1deg;
 }
 
 .bio-line-static:nth-child(5){
-
     rotate: -1deg;
 }
 
-
-
 .project-box{
-
     display:flex;
     flex-direction: column;
     width: 16vw;
     height: 16vw;
     background-color: #ffffff;
-
     box-shadow: 0 3px 5px 1px #737373;
 }
 
 .project-anchor{
     height: 18vw;
     width: 16vw;
-
     padding: 0;
 }
 
@@ -407,10 +362,7 @@ my-left{
     display: flex;
     align-items: center;
     flex-grow: 1;
-
     padding-top: 0.1rem;
-
-
 }
 
 .project-date{
@@ -424,7 +376,6 @@ my-left{
 }
 
 #links{
-
     padding-top: 1rem;
     font-size: 1.5rem;
     display:flex;
@@ -442,28 +393,21 @@ my-left{
     /*noinspection CssUnresolvedCustomProperty*/
     transform: rotate(var(--random-rotation));
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-
 }
 
 .title{
-    /*position: absolute;*/
     font-family: "Playfair Display", serif;
     line-height: 1;
     font-size: 22px;
-
     font-weight: 800;
     padding: 0.05rem;
     margin: 0.5rem;
     color: black;
     text-align: center;
-
 }
 
 .site-about{
-
-    /*align-self: flex-end;*/
     text-align: center;
-
 }
 
 .stick{
@@ -473,17 +417,12 @@ my-left{
     max-height: 2.5rem;
     padding: 0;
     margin: 0;
-
-
 }
 
 .project-description{
     text-align: center;
     font-size: 1.2rem;
     margin: 0.5rem;
-
-
-
 }
 
 #next-project{
@@ -507,7 +446,6 @@ my-left{
 .project-div-2:hover{
     transform: scale(1.1);
     box-shadow: 0 5px 7px 3px #504e49;
-
 }
 
 
@@ -531,24 +469,18 @@ my-left{
     justify-content: space-between;
     background-color: #EADCCC;
 
-
     animation-name: fadeIn;
     animation-duration: 2s;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
-
-
 }
 
 .about-text-div{
     padding: 2rem;
-
 }
 
 #about-main{
     flex-grow: 0.7;
     font-size: 2rem;
-
-
 }
 

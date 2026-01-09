@@ -9,7 +9,7 @@ class LeftComponent extends HTMLElement {
           <div id="left">  <!--            TODO dotted line -->
             <div id="top-line">
 <!--                <a href="/index.html">-->
-                <img src="/wordmark.svg" class="wordmark" alt="Jacob Peel">
+                <img src="/Images/wordmark.svg" class="wordmark" alt="Jacob Peel">
 <!--                </a>-->
                 <div id="links">
                     <a href="/Documents/CV%20Jacob%20Peel.docx"><p> CV </p></a>
@@ -55,7 +55,7 @@ class LeftComponent extends HTMLElement {
           <div id="left">  <!--            TODO dotted line -->
             <div id="top-line">
 <!--                <a href="/index.html">-->
-                <img src="/wordmark.svg" class="wordmark" alt="Jacob Peel">
+                <img src="/Images/wordmark.svg" class="wordmark" alt="Jacob Peel">
 <!--                </a>-->
                 <div id="links">
                     <a href="/Documents/CV%20Jacob%20Peel.docx"><p> CV </p></a>

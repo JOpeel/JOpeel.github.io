@@ -13,7 +13,7 @@ class LeftComponent extends HTMLElement {
             <div id="top-line">
                 <img src="/Images/wordmark.svg" class="wordmark" alt="Jacob Peel">
                 <div id="links">
-                    <a href="/Documents/CV%20Jacob%20Peel.docx" target="_blank"><p> CV </p></a>
+                    <a href="/Documents/CV%20Jacob%20Peel.pdf" target="_blank"><p> CV </p></a>
                     <a href="https://www.linkedin.com/in/jacob-peel-6408382ba" target="_blank"><p> LinkedIn </p></a>
                 </div>
             </div>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+        const isPortrait =  window.matchMedia("(orientation: portrait)")
+        if (screen.width <= 1200 || isPortrait.matches) {
+            window.location = "/mobile-placeholder.html";
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Computer Science BSc</title>
+    <link rel="stylesheet" href="/site.css">
+    <link rel="icon" type="image/x-icon" href="/Images/logo.svg?">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <script src="/left.js"></script>
+</head>
+<body>
+<div id="main" style="background-image: url(/backgrounds/dot-grid.webp)">
+    <my-left></my-left>
+
+    <a href="../index.html">
+        <button class="back" aria-label="Go back to home page">
+            Back
+        </button>
+    </a>
+
+    <div class="details">
+        <p class="details-title">
+            Computer Science BSc
+        </p>
+        <p class="details-bio">
+            Various programming projects including secure web apps, desktop game engineering, and frontend design of mobile gaming apps.
+        </p>
+
+        <p class="project-contents">
+            Click the Screenshots below to visit selected recent/significant GitHub repos, or view all repos <a href="https://www.github.com/JOpeel" style="text-decoration: underline" target="_blank">here</a>!
+        </p>
+
+        <p class="project-contents">
+            "Advanced Java" Module Project
+        </p>
+        <div class="image-div">
+        <a href="https://www.github.com/JOpeel/2024-AdvancedJavaQuizSystem" target="_blank">
+
+                <img class="image" src="/Images/Github/AdvancedJava.png" width="1334" height="823" alt="Advanced Java">
+
+
+
+        </a>
+        </div>
+        <p class="caption">
+            2024 MSc Java quiz system, practicing "advanced" skills like use of object factories.
+        </p>
+
+        <p class="project-contents">
+            Unity Singleplayer First-Person Shooter
+        </p>
+        <div class="image-div">
+            <a href="https://www.github.com/JOpeel/2023-UnityProjectSnowmanFPS" target="_blank">
+                <img class="image" src="/Images/Github/SnowmanGame.png" width="1596" height="895" alt="Snowman Game">
+            </a>
+
+        </div>
+        <p class="caption">
+            2023 university project - designing game where player defends igloo from snowmen by throwing snowballs, including CPU behaviour like complex pathfinding, and physics.
+        </p>
+
+
+        <p class="project-contents">
+           Evolutionary Algorithm to Emulate Target Image with Polygons
+        </p>
+
+        <div class="image-div">
+            <a href="https://www.github.com/JOpeel/2023-Biocomputing-EvolutionaryAlgorithmPolygonalImages" target="_blank">
+                <img class="image" src="/Images/Github/comparison.png" width="4261" height="2121" alt="Biocomputing">
+            </a>
+
+        </div>
+        <p class="caption">
+            2023 university project - creating and optimising evolutionary algorithm that recreates 200x200 target image from polygons, through tournament selection, mutation etc. Variants typically reach 90% fitness (closeness to target image).
+        </p>
+
+
+        <p class="project-contents">
+            Graphics Demonstration of Foreign Planet
+        </p>
+
+        <div class="image-div">
+            <a href="https://www.github.com/JOpeel/2023-StaticSceneGraphicsDemoMeteor" target="_blank">
+                <img class="image" src="/Images/Github/GraphicsDemo.png" width="1917" height="1079" alt="Graphics Demo">
+            </a>
+
+        </div>
+        <p class="caption">
+            2023 university project - static scene depicting meteor hitting planet, with suitable complexity such as particle effects, running water and scene-changing events.
+        </p>
+
+
+        <p class="project-contents">
+            Multiplayer Mobile Step-tracking Gamification
+        </p>
+
+        <div class="image-div">
+            <a href="https://www.github.com/JOpeel/2023-TeamProject-StepTrackingBoardgame-ReactNative" target="_blank">
+                <img class="image" src="/Images/Github/StepQuest.png" width="322" height="692" alt="Stepquest">
+            </a>
+        </div>
+
+        <p class="caption">
+            2023 university project - reactNative mobile app which tracks steps to be used to buy dice rolls in multiplayer board game. My role was UI/Game designer and principal frontend engineer.
+        </p>
+
+        <p class="project-contents">
+            Recipe Creator
+        </p>
+
+        <div class="image-div">
+            <a href="https://www.github.com/JOpeel/2022-RecipeMaker" target="_blank">
+                <img class="image" src="/Images/Github/recipe.png" width="618" height="829" alt="Recipe Creator">
+            </a>
+        </div>
+
+        <p class="caption">
+            Personal project so I could save and scale recipes for reference when cooking.
+        </p>
+
+        <p class="project-contents">
+        Lottery Secure Web App
+        </p>
+
+        <div class="image-div">
+            <a href="https://www.github.com/JOpeel/2022-LotteryWebAppSecurity " target="_blank">
+                <img class="image" src="/Images/Github/lottery.png" width="739" height="451" alt="Recipe Creator">
+            </a>
+        </div>
+
+        <p class="caption">
+            2022 university project - flask web application practicing security features such as cryptography, captchas etc.
+        </p>
+
+        <p class="project-contents">
+            "Ultimate" Noughts and Crosses Game
+        </p>
+
+        <div class="image-div">
+            <a href="https://www.github.com/JOpeel/2020-2021-Ultimate-Noughts-and-Crosses" target="_blank">
+                <img class="image" src="/Images/Github/XO.png" width="1284" height="728" alt="Recipe Creator">
+            </a>
+        </div>
+
+        <p class="caption">
+            A-level Computer Science Project including multiplayer and CPU to play against, and accounts system to save elo.
+        </p>
+    </div>
+</div>
+</body>
+</html>

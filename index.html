@@ -1,19 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="text/javascript">
+        const isPortrait =  window.matchMedia("(orientation: portrait)")
+        if (screen.width <= 1200 || isPortrait.matches) {
+            window.location = "mobile-placeholder.html";
+        }
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Title</title>
+    <title>Home</title>
     <link rel="stylesheet" href="site.css">
-    <link rel="icon" type="image/x-icon" href="/logo.svg?">
+    <link rel="icon" type="image/x-icon" href="/Images/logo.svg?">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<div class="content-wrapper">
-    <a href="mailto:jacobowainpeel@gmail.com">
-        <img src="https://raw.githubusercontent.com/JOpeel/JOpeel.github.io/c760d30da1e4e0f63045d028a525c3c7670a1288/wordmark.svg" alt="email" class="wordmark">
-    </a>
-    <p style="margin-top: 0">Portfolio in the works...</p>
+
+<div id="main" style="background-image: url(backgrounds/dot-grid.webp)">
+    <script src="left.js"></script>
+
+    <my-left></my-left>
+
+    <div class="projects">
+        <div class="project-container">
+
+
+            <div class="project" id="MScDiss">
+                <p class="project-date"> 06/2025 - 09/2025</p>
+                <a class="project-anchor" href="ProjectPages/HCI-diss-Msc.html">
+
+                <div class="project-box" >
+                    <div class="stick">
+                    <p class="title">HCI MSc Dissertation</p>
+                    </div>
+
+                    <img class="project-image" src="Images/Annotated%20Portfolio%20-%20Frame%201.jpg" width="1601" height="975" alt="showcase">
+
+                    <div class="description-container">
+                        <p class="project-description">
+                            <strong>Research Paper :</strong> Informing Futures of Computer Vision and Augmented Reality Centred Tools for Hillwalking and Mountaineering.
+                        </p>
+                    </div>
+
+
+                </div>
+                </a>
+            </div>
+
+
+
+
+            <div class="project" id="Lumicity">
+                <p class="project-date"> 03/2025</p>
+                <a class="project-anchor" href="ProjectPages/lumicity.html">
+                <div class="project-box">
+                    <div class="stick">
+                        <p class="title"> Design of Tangible Event Discovery System</p>
+                    </div>
+                    <img class="project-image" src="Images/lumicity.jpg" width="4080" height="3072" alt="showcase">
+
+                    <div class="description-container">
+                        <p class="project-description">
+                            Group project utilising raspberry pi and custom electronics, <strong>tangible user interface</strong>, and software. My primary role was programming backend using <strong>express.js.</strong>
+                        </p>
+                    </div>
+
+
+                </div>
+                </a>
+            </div>
+
+
+
+            <div class="project" id="TreasureHunt">
+                <p class="project-date"> 02/2025</p>
+                <a class="project-anchor" href="ProjectPages/treasure-hunt.html">
+                <div class="project-box">
+                    <div class="stick">
+                        <p class="title"> Prototyping Electronic "Treasure Hunt" Toy</p>
+                    </div>
+                    <img class="project-image" src="Images/treasurehunt.jpg" width="951" height="600" style="height: 10rem;" alt="showcase">
+
+                    <div class="description-container">
+                        <p class="project-description">
+                            Microbits with custom <strong>software</strong> and <strong>bespoke hardware</strong> receptacles used to approximate "treasure hunt" game, fulfilling brief of a "delightful digital product".
+                        </p>
+                    </div>
+
+
+                </div>
+                </a>
+            </div>
+
+
+
+
+            <div class="project" id="GymAI">
+                <p class="project-date"> 02/2025</p>
+                <a class="project-anchor" href="ProjectPages/gym-assistant.html">
+                <div class="project-box">
+                    <div class="stick">
+                        <p class="title">AI-Powered Gym Assistant App</p>
+                    </div>
+                    <img class="project-image" src="Images/humanaiinteraction.png" width="708" height="620" style="" alt="logo">
+
+                    <div class="description-container">
+                        <p class="project-description">
+                            <strong>Evaluating and redesigning</strong> an AI-powered gym companion application, considering and improving the use of AI for better <strong>user experience</strong> and features.
+                        </p>
+                    </div>
+
+
+                </div>
+                </a>
+            </div>
+
+
+
+            <div class="project" id="TravelTag">
+                <p class="project-date"> 01/2025</p>
+                <a class="project-anchor" href="ProjectPages/travel-tag.html">
+                <div class="project-box">
+                    <div class="stick">
+                        <p class="title">Design of Device to Enhance Everyday Steps Data</p>
+                    </div>
+                    <img class="project-image" src="Images/traveltag.png" width="1188" height="634" style="" alt="logo">
+
+                    <div class="description-container">
+                        <p class="project-description">
+                            <strong>IxD</strong> and <strong>UI</strong> for portable tracking device allowing user to visualise steps data as travel, including in-depth <strong>Responsible Research and Innovation</strong> considerations.
+                        </p>
+                    </div>
+
+
+                </div>
+                </a>
+            </div>
+
+
+
+            <div class="project" id="SafetyFurniture">
+                <p class="project-date"> 11/2024</p>
+                <a class="project-anchor" href="ProjectPages/safety-furniture.html">
+                <div class="project-box">
+                    <div class="stick">
+                        <p class="title">Researching Smart Street Furniture for Safety</p>
+                    </div>
+                    <img class="project-image" src="Images/safety.jpg" style="" width="1408" height="768" alt="logo">
+
+                    <div class="description-container">
+                        <p class="project-description">
+                            <strong>UX Research</strong> undertaken, conducting 3 <strong>interviews</strong> on factors impacting Newcastle-based students' perception of their safety in the city centre, towards "smart street furniture" solution.
+                        </p>
+                    </div>
+
+
+                </div>
+
+
+            </a>
+            </div>
+
+
+            <div class="project" id="RelaxationFurniture">
+                <p class="project-date"> 10/2024</p>
+                <a class="project-anchor" href="ProjectPages/relaxation-furniture.html">
+                <div class="project-box">
+                    <div class="stick">
+                        <p class="title">Designing Smart Street Furniture for Relaxation</p>
+                    </div>
+                    <img class="project-image" src="Images/sleeppod.png" width="1027" height="506" alt="logo">
+
+                    <div class="description-container">
+                        <p class="project-description">
+                            <strong>Team project</strong> discussing and <strong>presenting</strong> IxD for sleep pod to increase wellbeing of students through relaxation.
+                        </p>
+                    </div>
+
+
+                </div>
+                </a>
+            </div>
+
+
+
+            <div class="project" id="NUFWS">
+                <p class="project-date"> 08/2023 - 08/2025</p>
+                <a class="project-anchor" href="ProjectPages/NUFWS.html">
+                <div class="project-box">
+                    <div class="stick">
+                        <p class="title">Head of Digital Communications</p>
+                    </div>
+                    <img class="project-image" src="Images/NUFWS.png" width="1400" height="800" alt="logo">
+
+                    <div class="description-container">
+                        <p class="project-description">
+                            <strong>Designing</strong> and disseminating ~200 <strong>social media</strong> posts to inform members/customers and promote events, including 2 <strong>rebrands</strong>, as well as managing <strong>WordPress</strong> site containing trips archive, and more.
+                        </p>
+                    </div>
+
+
+                </div>
+                </a>
+            </div>
+
+
+
+            <div class="project" id="HCIDissBSc">
+                <p class="project-date"> 02/2024 - 05/2024</p>
+                <a class="project-anchor" href="ProjectPages/HCI-diss-BSc.html">
+                <div class="project-box">
+                    <div class="stick">
+                        <p class="title">HCI Dissertation Computer Science BSc</p>
+                    </div>
+                    <img class="project-image" src="Images/planmyplate.png" width="980" height="499" alt="logo">
+
+                    <div class="description-container">
+                        <p class="project-description">
+                            <strong>Research, design and analysis</strong> of an educational nutrition planner application for adults with low nutrition literacy.
+                        </p>
+                    </div>
+
+
+                </div>
+                </a>
+            </div>
+
+
+
+            <div class="project" id="CSBSc">
+                <p class="project-date"> 09/2021 - 05/2024</p>
+                <a class="project-anchor" href="ProjectPages/comp-sci.html">
+                <div class="project-box">
+                    <div class="stick">
+                        <p class="title">Computer Science BSc</p>
+                    </div>
+                    <img class="project-image" src="Images/github.png" width="1125" height="417" alt="logo">
+
+                    <div class="description-container">
+                        <p class="project-description">
+                            Various <strong>programming</strong> projects including <strong>secure web apps</strong>, <strong>game engineering</strong>, and implementing protocols in <strong>C</strong>.
+                        </p>
+                    </div>
+
+
+                </div>
+                </a>
+            </div>
+
+
+
+            <div class="project" id="Wooducate">
+                <p class="project-date"> 09/2019 - 03/2020</p>
+                <a class="project-anchor" href="ProjectPages/wooducate.html">
+                <div class="project-box">
+                    <div class="stick">
+                        <p class="title">Head of Branding</p>
+                    </div>
+                    <img class="project-image" src="Images/wordlogowithslogan.png" width="391" height="96" alt="logo">
+
+                    <div class="description-container">
+                        <p class="project-description">
+                            <strong>Graphic design</strong> and copywriting skill refined in professional setting, creating <strong>logos, documentation, and packaging.</strong>
+                        </p>
+                    </div>
+
+
+                </div>
+                </a>
+            </div>
+
+
+        </div>
+
+        <div class="site-about">
+            <p>This website was designed in Figma and built using plain old HTML, CSS, and Javascript! (Updated 2026) </p>
+        </div>
+
+    </div>
+
+        <script src="resizetext.js"></script>
+        <script src="randomiseprojects.js"></script>
+
+
 </div>
+
 
 </body>
 </html>

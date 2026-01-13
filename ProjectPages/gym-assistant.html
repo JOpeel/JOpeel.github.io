@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+        const isPortrait =  window.matchMedia("(orientation: portrait)")
+        if (screen.width <= 1200 || isPortrait.matches) {
+            window.location = "/mobile-placeholder.html";
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>AI Gym Assistant Redesign</title>
+    <link rel="stylesheet" href="/site.css">
+    <link rel="icon" type="image/x-icon" href="/Images/logo.svg?">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <script src="/left.js"></script>
+</head>
+<body>
+
+<div id="main" style="background-image: url(/backgrounds/dot-grid.webp)">
+    <my-left></my-left>
+
+    <a href="../index.html">
+        <button class="back" aria-label="Go back to home page">
+            Back
+        </button>
+    </a>
+
+    <div class="details">
+        <p class="details-title">
+            AI-Powered Gym Assistant App
+        </p>
+        <p class="details-bio">
+            Evaluating and redesigning an AI-powered gym companion application, considering the use of AI and improving this for better user experience and features.        </p>
+
+        <div class="top-image-div">
+            <a href="/Images/humanaiinteraction.png">
+                <img class="image" src="/Images/humanaiinteraction.png" width="708" height="620">
+            </a>
+        </div>
+        <p class="caption">
+            One AI-powered feature was live form analysis.
+        </p>
+
+        <a class="doc-link" href="/Documents/Planfit%202.0.pdf" target="_blank">
+            <p class="project-contents" style="text-decoration: underline">
+                Read paper here!
+            </p>
+        </a>
+
+        <p class="project-contents">
+
+            This was a team project, with my contributions including:
+
+            <p class=project-contents style="text-align: left;">
+                - Researching applications for review.
+                <br/>- Finalising domain of gym apps for review.
+                <br/>- Writing the status-quo review of <i>planfit</i> critiquing the implementation of AI in this system, and considering AI-powered fitness apps overall.
+                <br/>- Editing and formatting the document, including synthesising others contributions and clarifying style, spelling and grammar.
+            </p>
+        </p>
+    </div>
+
+
+
+</div>
+
+</body>
+</html>

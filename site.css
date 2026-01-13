@@ -490,3 +490,22 @@ my-left{
     font-size: 2rem;
 }
 
+.placeholder-main{
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center; /* Centres horizontally */
+    align-items: center;     /* Centres vertically */
+    background: linear-gradient(
+            139deg,rgba(219, 177, 143, 1) 0%, rgba(191, 149, 115, 1) 35%, rgba(158, 118, 85, 1) 100%
+    );
+}
+
+.placeholder-content-wrapper{
+
+
+    font-family: 'handwriting', serif;
+    font-size: 200%;
+    text-align: center;
+}

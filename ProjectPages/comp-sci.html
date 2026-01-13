@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="text/javascript">
+        const isPortrait =  window.matchMedia("(orientation: portrait)")
+        if (screen.width <= 1200 || isPortrait.matches) {
+            window.location = "/mobile-placeholder.html";
+        }
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Computer Science BSc</title>
@@ -10,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
-    <script src="/Left.js"></script>
+    <script src="/left.js"></script>
 </head>
 <body>
 <div id="main" style="background-image: url(/backgrounds/dot-grid.webp)">
@@ -37,7 +43,7 @@
         <p class="project-contents">
             "Advanced Java" Module Project
         </p>
-        <div class="top-image-div">
+        <div class="image-div">
         <a href="https://www.github.com/JOpeel/2024-AdvancedJavaQuizSystem" target="_blank">
 
                 <img class="image" src="/Images/Github/AdvancedJava.png" width="1334" height="823" alt="Advanced Java">

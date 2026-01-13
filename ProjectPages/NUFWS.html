@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="text/javascript">
+        const isPortrait =  window.matchMedia("(orientation: portrait)")
+        if (screen.width <= 1200 || isPortrait.matches) {
+            window.location = "/mobile-placeholder.html";
+        }
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Head of Digital Communications Newcastle University Fellwalking Society</title>
@@ -10,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
-    <script src="/Left.js"></script>
+    <script src="/left.js"></script>
 </head>
 <body>
 <div id="main" style="background-image: url(/backgrounds/dot-grid.webp)">
@@ -27,7 +33,7 @@
             Head of Digital Communications
         </p>
         <p class="details-bio">
-            Designing and disseminating ~200 social media posts to inform members and promote events, including 2 rebrands, as well as managing WordPress site containing trips archive.
+            Designing and disseminating ~200 social media posts to inform members and promote events, including 2 rebrands, as well as managing WordPress site containing trips archive, and more.
         </p>
 
         <div class="top-image-div">
@@ -92,7 +98,7 @@
 
 
         <p class="caption">
-            A snapshot of the <a href="https://www.nufws.com" style="text-decoration: underline">wordpress site</a>.
+            A snapshot of the <a href="https://www.nufws.com" target="_blank" style="text-decoration: underline">wordpress site</a>.
         </p>
 
         <div class="image-div">
@@ -114,7 +120,7 @@
         </p>
 
         <p class="project-contents">
-            Other Instagram posts can be viewed <a href="https://www.instagram.com/newcastleunifellwalkingsociety/" style="text-decoration: underline">here</a> by scrolling to posts before September 2025 and after September 2023!
+            Other Instagram posts can be viewed <a href="https://www.instagram.com/newcastleunifellwalkingsociety/" style="text-decoration: underline" target="_blank">here</a> by scrolling to posts before September 2025 and after September 2023!
         </p>
 
     </div>

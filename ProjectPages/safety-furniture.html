@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="text/javascript">
+        const isPortrait =  window.matchMedia("(orientation: portrait)")
+        if (screen.width <= 1200 || isPortrait.matches) {
+            window.location = "/mobile-placeholder.html";
+        }
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Designing Smart Street Furniture for Relaxation</title>
+    <title>Researching Smart Street Furniture for Safety</title>
     <link rel="stylesheet" href="/site.css">
     <link rel="icon" type="image/x-icon" href="/Images/logo.svg?">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
-    <script src="/Left.js"></script>
+    <script src="/left.js"></script>
 </head>
 <body>
 <div id="main" style="background-image: url(/backgrounds/dot-grid.webp)">
@@ -24,23 +30,22 @@
 
     <div class="details">
         <p class="details-title">
-            Designing Smart Street Furniture for Relaxation
+            Researching Smart Street Furniture for Safety
         </p>
         <p class="details-bio">
-            Team project discussing and presenting UX and design for sleep pod to increase wellbeing of students through relaxation.
+            UX Research undertaken, conducting 3 interviews on factors impacting Newcastle-based students' perception of their safety in the city centre, towards "smart street furniture" solution.
         </p>
-
         <div class="top-image-div">
-            <img class="image" src="/Images/sleeppod.png" width="1027" height="506">
+            <img class="image" src="/Images/safety.jpg" height="768" width="1408">
         </div>
 
         <p class="caption">
-            One team member produced a sketch showing a possible incarnation of our idea.
+            An AI generated image showcasing a possible solution for the problems illuminated through analysing the interviews undertaken.
         </p>
 
-        <a class="doc-link" href="/Documents/SleepPodPresentation.pdf" target="_blank">
+        <a class="doc-link" href="/Documents/SafetyFurnitureResearchReport.pdf" target="_blank">
             <p class="project-contents" style="text-decoration: underline">
-                Read presentation here!
+                Read paper here!
             </p>
         </a>
     </div>

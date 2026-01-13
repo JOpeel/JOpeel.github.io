@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="text/javascript">
+        const isPortrait =  window.matchMedia("(orientation: portrait)")
+        if (screen.width <= 1200 || isPortrait.matches) {
+            window.location = "/mobile-placeholder.html";
+        }
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>BSc Dissertation Human-Computer Interaction Nutrition Planner</title>
+    <title>Prototyping Electronic Treasure Hunt Toy</title>
     <link rel="stylesheet" href="/site.css">
     <link rel="icon" type="image/x-icon" href="/Images/logo.svg?">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
-    <script src="/Left.js"></script>
+    <script src="/left.js"></script>
 </head>
 <body>
 <div id="main" style="background-image: url(/backgrounds/dot-grid.webp)">
@@ -24,30 +30,26 @@
 
     <div class="details">
         <p class="details-title">
-            HCI Dissertation Computer Science BSc
+            Prototyping Electronic Treasure Hunt Toy
         </p>
         <p class="details-bio">
-            Research, design and analysis of an educational nutrition planner application for adults with low nutrition literacy.
+            Microbits with custom software and bespoke hardware receptacles used to approximate "treasure hunt" game, fulfilling brief of a "delightful digital product".
         </p>
 
-        <img class="image" src="/Images/planmyplate2.png" width="944" height="2096" style="width: 30%">
+        <video class="contents-video" controls>
+            <source src="/Documents/demo.mp4" type="video/mp4">
+        </video>
 
         <p class="caption">
-            The landing page for new users when opening the “PlanMyPlate” app.
+            A video demonstrating how the prototype functions - including which elements were faked to facilitate faster prototyping, while maintaining an adequate representation of functionality.
         </p>
 
-        <a class="doc-link" href="/Documents/BSCDiss.pdf" target="_blank">
+        <a class="doc-link" href="/Documents/TreasureHuntPrototype.pdf" target="_blank">
             <p class="project-contents" style="text-decoration: underline">
                 Read paper here!
             </p>
         </a>
-
-        <a class="doc-link" href="https://www.figma.com/design/GKJlf8BON7NAYXuPktNjAO/UI?node-id=0-1&t=1YSfVHCjBa9Ls91k-1" target="_blank">
-            <p class="project-contents" style="text-decoration: underline">
-                Figma
-            </p>
-        </a>
-
+        <p class="project-contents"> NOTE: the file initially corrupted and this is a temporary "fixed" version in which some visual defects remain.</p>
     </div>
 </div>
 </body>

@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="text/javascript">
+        const isPortrait =  window.matchMedia("(orientation: portrait)")
+        if (screen.width <= 1200 || isPortrait.matches) {
+            window.location = "/mobile-placeholder.html";
+        }
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>MSc Dissertation Augmented Reality and Computer Vision Futures Hillwalking and Mountaineering</title>
@@ -10,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
-    <script src="/Left.js"></script>
+    <script src="/left.js"></script>
 </head>
 <body>
 <div id="main" style="background-image: url(/backgrounds/dot-grid.webp)">
@@ -38,7 +44,9 @@
 
 
         <p class="caption"> One research contribution from my dissertation was this “annotated portfolio” reflecting generalities between designs. </p>
+
         <p class="caption"> Click image to view in full size! </p>
+
         <a class="doc-link" href="/Documents/Informing%20Futures%20of%20Computer%20Vision%20and%20Augmented%20Reality%20Centred%20Tools%20for%20Hillwalking%20and%20Mountaineering..pdf">
             <p class="project-contents" style="text-decoration: underline">
                 Read paper here for details!

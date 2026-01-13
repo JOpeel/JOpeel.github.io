@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="text/javascript">
+        const isPortrait =  window.matchMedia("(orientation: portrait)")
+        if (screen.width <= 1200 || isPortrait.matches) {
+            window.location = "mobile-placeholder.html";
+        }
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Home</title>
@@ -14,7 +20,7 @@
 <body>
 
 <div id="main" style="background-image: url(backgrounds/dot-grid.webp)">
-    <script src="Left.js"></script>
+    <script src="left.js"></script>
 
     <my-left></my-left>
 
@@ -24,7 +30,7 @@
 
             <div class="project" id="MScDiss">
                 <p class="project-date"> 06/2025 - 09/2025</p>
-                <a class="project-anchor" href="ProjectPages/HCIMSCDiss.html">
+                <a class="project-anchor" href="ProjectPages/HCI-diss-Msc.html">
 
                 <div class="project-box" >
                     <div class="stick">
@@ -49,7 +55,7 @@
 
             <div class="project" id="Lumicity">
                 <p class="project-date"> 03/2025</p>
-                <a class="project-anchor" href="ProjectPages/Lumicity.html">
+                <a class="project-anchor" href="ProjectPages/lumicity.html">
                 <div class="project-box">
                     <div class="stick">
                         <p class="title"> Design of Tangible Event Discovery System</p>
@@ -71,7 +77,7 @@
 
             <div class="project" id="TreasureHunt">
                 <p class="project-date"> 02/2025</p>
-                <a class="project-anchor" href="ProjectPages/TreasureHunt.html">
+                <a class="project-anchor" href="ProjectPages/treasure-hunt.html">
                 <div class="project-box">
                     <div class="stick">
                         <p class="title"> Prototyping Electronic "Treasure Hunt" Toy</p>
@@ -94,7 +100,7 @@
 
             <div class="project" id="GymAI">
                 <p class="project-date"> 02/2025</p>
-                <a class="project-anchor" href="ProjectPages/GymAssistant.html">
+                <a class="project-anchor" href="ProjectPages/gym-assistant.html">
                 <div class="project-box">
                     <div class="stick">
                         <p class="title">AI-Powered Gym Assistant App</p>
@@ -116,7 +122,7 @@
 
             <div class="project" id="TravelTag">
                 <p class="project-date"> 01/2025</p>
-                <a class="project-anchor" href="ProjectPages/TravelTag.html">
+                <a class="project-anchor" href="ProjectPages/travel-tag.html">
                 <div class="project-box">
                     <div class="stick">
                         <p class="title">Design of Device to Enhance Everyday Steps Data</p>
@@ -125,7 +131,7 @@
 
                     <div class="description-container">
                         <p class="project-description">
-                            <strong>IxD and UI</strong> for physical tracking object that allows user to <strong>visualise their steps data</strong> as travel, fulfilling brief of "living well together".
+                            <strong>IxD</strong> and <strong>UI</strong> for portable tracking device allowing user to visualise steps data as travel, including in-depth <strong>Responsible Research and Innovation</strong> considerations.
                         </p>
                     </div>
 
@@ -138,7 +144,7 @@
 
             <div class="project" id="SafetyFurniture">
                 <p class="project-date"> 11/2024</p>
-                <a class="project-anchor" href="ProjectPages/SafetyFurniture.html">
+                <a class="project-anchor" href="ProjectPages/safety-furniture.html">
                 <div class="project-box">
                     <div class="stick">
                         <p class="title">Researching Smart Street Furniture for Safety</p>
@@ -161,7 +167,7 @@
 
             <div class="project" id="RelaxationFurniture">
                 <p class="project-date"> 10/2024</p>
-                <a class="project-anchor" href="ProjectPages/RelaxationFurniture.html">
+                <a class="project-anchor" href="ProjectPages/relaxation-furniture.html">
                 <div class="project-box">
                     <div class="stick">
                         <p class="title">Designing Smart Street Furniture for Relaxation</p>
@@ -170,7 +176,7 @@
 
                     <div class="description-container">
                         <p class="project-description">
-                            <strong>Team project</strong> discussing and <strong>presenting</strong> UX and design for sleep pod to increase wellbeing of students through relaxation.
+                            <strong>Team project</strong> discussing and <strong>presenting</strong> IxD for sleep pod to increase wellbeing of students through relaxation.
                         </p>
                     </div>
 
@@ -192,7 +198,7 @@
 
                     <div class="description-container">
                         <p class="project-description">
-                            <strong>Designing</strong> and disseminating ~200 <strong>social media</strong> posts to inform members/customers and promote events, including 2 <strong>rebrands</strong>, as well as managing <strong>WordPress</strong> site containing trips archive.
+                            <strong>Designing</strong> and disseminating ~200 <strong>social media</strong> posts to inform members/customers and promote events, including 2 <strong>rebrands</strong>, as well as managing <strong>WordPress</strong> site containing trips archive, and more.
                         </p>
                     </div>
 
@@ -205,7 +211,7 @@
 
             <div class="project" id="HCIDissBSc">
                 <p class="project-date"> 02/2024 - 05/2024</p>
-                <a class="project-anchor" href="ProjectPages/HCIDissBSC.html">
+                <a class="project-anchor" href="ProjectPages/HCI-diss-BSc.html">
                 <div class="project-box">
                     <div class="stick">
                         <p class="title">HCI Dissertation Computer Science BSc</p>
@@ -227,7 +233,7 @@
 
             <div class="project" id="CSBSc">
                 <p class="project-date"> 09/2021 - 05/2024</p>
-                <a class="project-anchor" href="ProjectPages/CompSci.html">
+                <a class="project-anchor" href="ProjectPages/comp-sci.html">
                 <div class="project-box">
                     <div class="stick">
                         <p class="title">Computer Science BSc</p>
@@ -249,7 +255,7 @@
 
             <div class="project" id="Wooducate">
                 <p class="project-date"> 09/2019 - 03/2020</p>
-                <a class="project-anchor" href="ProjectPages/Wooducate.html">
+                <a class="project-anchor" href="ProjectPages/wooducate.html">
                 <div class="project-box">
                     <div class="stick">
                         <p class="title">Head of Branding</p>

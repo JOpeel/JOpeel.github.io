@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="text/javascript">
+        const isPortrait =  window.matchMedia("(orientation: portrait)")
+        if (screen.width <= 1200 || isPortrait.matches) {
+            window.location = "/mobile-placeholder.html";
+        }
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>AI Gym Assistant Redesign</title>
@@ -10,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
-    <script src="/Left.js"></script>
+    <script src="/left.js"></script>
 </head>
 <body>
 
@@ -28,7 +34,7 @@
             AI-Powered Gym Assistant App
         </p>
         <p class="details-bio">
-            Evaluating and redesigning an AI-powered gym companion application, considering and improving the use of AI for better user experience and features.        </p>
+            Evaluating and redesigning an AI-powered gym companion application, considering the use of AI and improving this for better user experience and features.        </p>
 
         <div class="top-image-div">
             <a href="/Images/humanaiinteraction.png">
@@ -50,7 +56,7 @@
             This was a team project, with my contributions including:
 
             <p class=project-contents style="text-align: left;">
-                <br/>- Researching applications for review.
+                - Researching applications for review.
                 <br/>- Finalising domain of gym apps for review.
                 <br/>- Writing the status-quo review of <i>planfit</i> critiquing the implementation of AI in this system, and considering AI-powered fitness apps overall.
                 <br/>- Editing and formatting the document, including synthesising others contributions and clarifying style, spelling and grammar.

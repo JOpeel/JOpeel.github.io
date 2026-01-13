@@ -29,7 +29,7 @@ class LeftComponent extends HTMLElement {
     
             <div id="bio">
                 <p class="bio-line${isStatic}">
-                    (UK-based designer and engineer.)
+                    UK-based designer and engineer.
                 </p>
                 <p class="bio-line${isStatic}">
                     Human-centred tools - ideation, research, prototyping, development.

@@ -383,7 +383,8 @@ my-left{
     display:flex;
     flex-direction: row;
     gap: 2rem;
-    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
 }
 
 .project{

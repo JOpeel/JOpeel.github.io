@@ -43,7 +43,7 @@ class LeftComponent extends HTMLElement {
                 <p class="bio-line${isStatic}">
                     When I’m not at my desk you can often find me up a mountain in disappointing conditions.
                     <br>
-                    When I AM at my desk, you can find me <a style="text-decoration: underline;" href="https://formsubmit.co/el/zumiwo" target="_blank">here</a>
+                    When I AM at my desk, you can find me <a style="text-decoration: underline; text-decoration-style: dotted;" href="https://formsubmit.co/el/zumiwo" target="_blank">here</a>
                 </p>
             </div>
     
